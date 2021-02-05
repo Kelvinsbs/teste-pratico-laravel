@@ -8,5 +8,5 @@
 <p>Laravel</p>
 
 ### Autor
-Kelvin Santos Barcelos
+Kelvin Santos Barcelos <br>
 Email: nivlek.barcelos@gmail.com
