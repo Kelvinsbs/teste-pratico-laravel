@@ -21,22 +21,22 @@
 
                 <div class="form-group">
                     <label for="codigo">Código:</label>
-                    <input type="text" id="codigo" name="codigo" class="form-control" value="{{$produto->codigo ?? ''}}" >
+                    <input type="text" id="codigo" name="codigo" class="form-control" value="{{$produto->codigo ?? ''}}" required>
                 </div>
 
                 <div class="form-group">
                     <label for="descricao">Descrição:</label>
-                    <input type="text" id="descricao" name="descricao" class="form-control" value="{{$produto->descricao ?? ''}}" >
+                    <input type="text" id="descricao" name="descricao" class="form-control" value="{{$produto->descricao ?? ''}}" required>
                 </div>
 
                 <div class="form-group">
                     <label for="qtd">Quantidade:</label>
-                    <input type="text" id="qtd" name="qtd" class="form-control" value="{{$produto->quantidade ?? ''}}" >
+                    <input type="text" id="qtd" name="qtd" class="form-control" value="{{$produto->quantidade ?? ''}}" required>
                 </div>
 
                 <div class="form-group">
                     <label for="preco">Preço:</label>
-                    <input type="text" id="preco" name="preco" class="form-control" value="{{$produto->preco ?? ''}}" >
+                    <input type="text" id="preco" name="preco" class="form-control" value="{{$produto->preco ?? ''}}" required>
                 </div>
 
                 <button type="submit" class="btn btn-primary">@if(isset($produto)) Editar @else Cadastrar @endif</button>
